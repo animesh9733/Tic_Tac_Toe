@@ -9,7 +9,7 @@ let seven=document.getElementById("seven");
 let eight=document.getElementById("eight");
 let nine=document.getElementById("nine");
 let won=new Audio("won.wav");
-let click=new Audio("https://whyp.it/tracks/42527/click2?token=sZu7H");
+let click=new Audio("click2.mp3");
 let draw=new Audio("draw.wav");
 
 const pl1=document.querySelector(" .players .player1");
