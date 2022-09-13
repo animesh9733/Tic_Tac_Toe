@@ -49,7 +49,7 @@ function win_check(){
       won.play();
 
    }
-   else if( array[0].textContent=="0" && array[1].textContent=="0" && array[2].textContent=="0" || array[3].textContent=="0" && array[4].textContent=="0" && array[5].textContent=="0" || array[6].textContent=="0" && array[7].textContent=="x" && array[8].textContent=="0" || array[0].textContent=="0" && array[3].textContent=="0" && array[6].textContent=="0" || array[1].textContent=="0" && array[4].textContent=="0" && array[7].textContent=="0" || array[2].textContent=="0" && array[5].textContent=="0" && array[8].textContent=="0" || array[0].textContent=="0" && array[4].textContent=="0" && array[8].textContent=="0"  || array[2].textContent=="0" && array[4].textContent=="0" && array[6].textContent=="0"  ){
+   else if( array[0].textContent=="0" && array[1].textContent=="0" && array[2].textContent=="0" || array[3].textContent=="0" && array[4].textContent=="0" && array[5].textContent=="0" || array[6].textContent=="0" && array[7].textContent=="0" && array[8].textContent=="0" || array[0].textContent=="0" && array[3].textContent=="0" && array[6].textContent=="0" || array[1].textContent=="0" && array[4].textContent=="0" && array[7].textContent=="0" || array[2].textContent=="0" && array[5].textContent=="0" && array[8].textContent=="0" || array[0].textContent=="0" && array[4].textContent=="0" && array[8].textContent=="0"  || array[2].textContent=="0" && array[4].textContent=="0" && array[6].textContent=="0"  ){
       won.play();
       win.classList.remove("inactive");
       winPlayer.innerHTML="Won! Player 2";
